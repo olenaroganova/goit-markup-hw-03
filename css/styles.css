@@ -17,6 +17,33 @@ body {
   background-color: var(--color-white);
 }
 
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid purple;
+}
+
+/* -----------Reset styles----------- */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
 /* --------------Logo------------- */
 
 .header-span {
@@ -24,7 +51,17 @@ body {
 }
 
 /* --------------------Header------------- */
-.logo {
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -35,10 +72,14 @@ body {
   color: var(--bcg-btn-main);
   text-decoration: none;
 }
-.list {
-  list-style: none;
+
+.navigation {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
 }
-.navigat {
+
+.content {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -46,6 +87,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-color);
+}
+
+.header-list {
+  display: flex;
+  margin-left: 76px;
+  gap: 40px;
 }
 
 .link {
@@ -60,8 +107,10 @@ body {
 .address {
   font-style: normal;
 }
-.address.list {
-  list-style-type: none;
+
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .address-link {
