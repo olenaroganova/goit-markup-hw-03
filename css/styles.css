@@ -257,6 +257,7 @@ img {
 /* ----------------Our team---------------------- */
 .ourteam {
   background-color: var(--bcg-pink);
+  padding: 120px 0;
 }
 
 .ourteam-title {
@@ -267,10 +268,22 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-color);
+  margin-bottom: 72px;
+}
+
+.ourteam-list {
+  display: flex;
+  gap: 24px;
 }
 
 .people {
   background-color: var(--color-white);
+  width: calc((100% - 24px * 3) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.name-people {
+  padding: 32px 16px;
 }
 
 .ourteam-subtitle {
@@ -280,6 +293,8 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-color);
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .ourteam-text {
@@ -287,6 +302,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--second-color);
+  text-align: center;
 }
 
 /* ----------------------------Footer-------------- */
