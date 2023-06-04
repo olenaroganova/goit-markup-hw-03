@@ -76,6 +76,7 @@ img {
   color: var(--bcg-btn-main);
   text-decoration: none;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .navigation {
