@@ -83,7 +83,6 @@ img {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding: 24px 0;
 }
 
 .content {
@@ -100,6 +99,9 @@ img {
   display: flex;
   margin-left: 76px;
   gap: 40px;
+}
+
+.nav-li {
   padding: 24px 0;
 }
 
