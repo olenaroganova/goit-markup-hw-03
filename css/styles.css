@@ -99,6 +99,7 @@ img {
   display: flex;
   margin-left: 76px;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .link {
