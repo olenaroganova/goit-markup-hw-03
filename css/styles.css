@@ -47,6 +47,20 @@ ul {
 img {
   display: block;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* --------------Logo------------- */
 
 .header-span {
@@ -182,6 +196,21 @@ img {
 }
 
 /* -----------------Advantages------------ */
+.advantages {
+  padding: 120px 0;
+}
+
+.div-advantages {
+}
+
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-item {
+  width: calc((100% - 72px) / 4);
+}
 
 .advantages-subtitle {
   font-weight: 500;
@@ -189,6 +218,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-color);
+  margin-bottom: 8px;
 }
 
 .advantages-text {
