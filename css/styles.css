@@ -139,6 +139,10 @@ img {
 
 /* ---------------Hero------------- */
 .hero {
+  padding: 188px 0;
+}
+
+.hero-container {
   background-color: var(--main-color);
 }
 
@@ -149,9 +153,11 @@ img {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  width: 496px;
 }
 
 .hero-button {
+  display: block;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -161,6 +167,10 @@ img {
   color: var(--color-white);
   background-color: var(--bcg-btn-main);
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
