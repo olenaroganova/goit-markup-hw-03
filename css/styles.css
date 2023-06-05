@@ -70,8 +70,6 @@ img {
 
 /* --------------------Header------------- */
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid var(--border-header);
 }
 
@@ -113,7 +111,6 @@ img {
 
 .header-list {
   display: flex;
-  margin-left: 76px;
   gap: 40px;
 }
 
@@ -121,8 +118,8 @@ img {
   text-decoration: none;
 }
 
-.navigat:hover,
-.navigat:focus {
+.content-navig:hover,
+.content-navig:focus {
   color: var(--color-active);
 }
 
