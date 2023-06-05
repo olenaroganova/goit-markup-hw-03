@@ -118,8 +118,8 @@ img {
   text-decoration: none;
 }
 
-.content-navig:hover,
-.content-navig:focus {
+.content:hover,
+.content:focus {
   color: var(--color-active);
 }
 
